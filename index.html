@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap: Grid System</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <meta name="viewport" content="widith=device-widith, initial-scale=1.0">  <!-- para que funcione el codigo a escala -->
+	<link rel="stylesheet" href="css/main.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--para que se vea en explorer-->
+  <link rel="shortcut icon" href="favicon.png">
+
+    <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
+    <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->	
+</head>
+<body>
+	<!-- Inserta tu código aqui -->
+  <header class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-6 col-xs-6">
+        <h1>Site name</h1>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6">
+        <span class="glyphicon glyphicon-home">
+          <a class="noticias" href="#">Noticias</a>
+        </span>
+        <span class="glyphicon glyphicon-home">
+          <a class="noticias" href="#">Enlaces RSS</a>
+        </span>
+      </div>
+      <div class="col-md-4 col-sm- col-xs">
+          <form class="form-horizontal" action="#" method="POST" enctype="multipart/form-data">
+          <input class="" name="Buscador" type="text" placeholder="Ingresa tu busqueda" />
+          <button class="btn btn-default">
+            <a href="www.google.comn">Buscar</a>
+          </button>
+          </form>
+      </div>
+    </div>
+    <div class="row containerfluid">
+      <div class="col-md-12 col-sm col-xs">
+          <nav class="navbar navbar-default" role="navigation"><!-- El logotipo y el icono que despliega el menú se agrupan para mostrarlos mejor en los dispositivos móviles -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Desplegar navegación</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="#">Bienvenido</a>
+              </li>
+              <li>
+                <a href="#">Actualidades</a>
+              </li>
+              <li>
+                <a href="#">En directo</a>
+              </li>
+              <li>
+                <a href="#">Reporte financiero</a>
+              </li>
+              <li>
+                <a href="#">Nuestra Oferta</a>
+              </li>
+              <li>
+                <a href="#">De nosotros a usted</a>
+              </li>
+            </ul> 
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>  
+  <section class="container">
+    <div class="row"><!--row general para las 3 columnas-->
+      <div class="col-md-4 col-sm-6 col-xs-12"><!--col para primer columna de 4-->
+             <div class="row"><!--comienza row para el cuadro gris-->
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="cajagris">
+                  <h2>Historia destacada</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row"><!--comienza row para primer articulo debajo de cuadro gris-->
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="row"><!--row para artuculo y publicacion -->
+                  <div class="col-md-2 col-sm-12 col-xs-12"><!--articulo-->
+                    <p><strong>Articulo</strong></p>
+                  </div>  
+                  <div class="col-md-10 col-sm-10 col-xs-10"><!--publicacion-->
+                      <p>Publicado el 09/10/15</p>
+                  </div>
+                </div>
+                <div class="row"><!--row para titulo -->
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h3><strong>Lorem ipsum dolor sit amet</strong></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+                  </div>
+                </div>
+                <div class="row"><!--row para enlaces con icono-->
+                  <div class="col-md-4 col-sm-4 col-xs-4">
+                    <span class="glyphicon glyphicon-bookmark"><a href="#">Ver mas...</a></span>
+                  </div>
+                  <div class="col-md-8 col-sm-8 col-xs-8">
+                    <span class="">Etiquetas: 
+                      <a href="#">Lorem</a>
+                      <a href="#">Impsum</a>
+                      <a href="#">Diligat</a>
+                    </span>
+                  </div>
+                </div><!--termina row de enlaces con icono-->
+              </div><!--termina col de primer articulo-->
+            </div> <!--termina row de primer articulo-->
+            <hr>
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12"><!--col general para segundo articulo-->
+                <div class="row"><!--row para caja negra-->
+                  <div class="col-md-3 col-sm-3 col-xs-3"><!--caja negra-->
+                    <div class="cajitanegra">Webzone</div>
+                  </div>
+                  <div class="col-md-9 col-sm-9 col-xs-9"><!--texto al lado de caja negra-->
+                    <div class="row"><!--row para artuculo y publicacion -->
+                      <div class="col-md-3 col-sm-3 col-xs-3"><!--articulo-->
+                        <a href="#">Preguntas</a>
+                      </div>  
+                        <div class="col-md-9 col-sm-9 col-xs-9"><!--publicacion-->
+                          <p>Publicado el 09/10/15</p>
+                        </div>
+                    </div>
+                  </div>
+                  </div><!--row despues de row general-->
+                  <hr>
+                  <div class="row"><!--row pra titulo y texto-->
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                      <h3>Lorem ipsum dolor sit amet</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                  </div>
+                  <div class="row"><!--row para enlaces con icono-->
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                      <span class="glyphicon glyphicon-bookmark"><a href="#">Ver mas...</a></span>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-8">
+                      <span class="">Etiquetas: 
+                        <a href="#">Lorem</a>
+                        <a href="#">Impsum</a>
+                        <a href="#">Diligat</a>
+                      </span>
+                    </div>
+                  </div><!--termina row enlaces con icono-->
+               </div><!--termina col de segundo articulo-->
+             </div><!--termina row de segundo articulo-->
+             <hr>
+             <div class="row"><!--row para tercer artuculo -->
+                <div class="col-md-12 col-sm-12 col-xs-12"><!--articulo-->
+                  <div class="row"><!--row para artuculo y publicacion -->
+                    <div class="col-md-2 col-sm-2 col-xs-2"><!--articulo-->
+                      <p>Articulo</p>
+                    </div>  
+                    <div class="col-md-10 col-sm-10 col-xs-10"><!--publicacion-->
+                      <p>Publicado el 09/10/15</p>
+                    </div>
+                  </div><!--termina row para articulo y publicacion-->
+                  <div class="row">
+                      <div class="col-md-12 col-sm-12 col-xs-12">
+                        <h3>Lorem ipsum dolor sit amet</h3>
+                        <div class="cuadrofoto">Foto</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                  </div>
+                  <div class="row"><!--row para enlaces con icono-->
+                      <div class="col-md-4 col-sm-4 col-xs-4">
+                        <span class="glyphicon glyphicon-bookmark"><a href="#">Ver mas...</a></span>
+                      </div>
+                      <div class="col-md-8 col-sm-8 col-xs-8">
+                        <span class="">Etiquetas: 
+                          <a href="#">Lorem</a>
+                          <a href="#">Impsum</a>
+                          <a href="#">Diligat</a>
+                        </span>
+                      </div>
+                  </div><!--termina row enlaces con icono-->
+                </div>    
+            </div><!--termina row para tercer articulo y
+             publicacion-->
+             <hr>
+            <div class="row"><!--empieza row de segunda columna-->
+              <div class="col-md-12 col-sm-16 col-xs-12">
+                  <h3>Lorem ipsum dolor sit amet</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="row"><!--row para enlaces con icono-->
+                      <div class="col-md-4">
+                        <span class="glyphicon glyphicon-bookmark"><a href="#">Ver mas...</a></span>
+                      </div>
+                      <div class="col-md-8">
+                        <span class="">Etiquetas: 
+                          <a href="#">Lorem</a>
+                          <a href="#">Impsum</a>
+                          <a href="#">Diligat</a>
+                        </span>
+                      </div>
+                  </div><!--termina row enlaces con icono-->
+              </div>
+            </div><!--termina cuarto articulo-->
+       </div><!--termina col para primer columna de 4-->
+       <div class="col-md-4 col-sm-6 col-xs-12"><!--col para segund columna de 4-->
+          <div class="row"><!--row para cuadro gris-->
+              <div class="col-md-12 col-sm-12 col-xs-12"><!--col para titulo historia-->
+                <div class="cajagris">
+                    <h2>Historia destacada</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <video></video>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <h3>Claire Dupond</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <p>publicado 05/10/15</p>
+                </div>
+                <div class="col-md-6">
+                  <span class="glyphicon glyphicon-bookmark"><a href="#">Ver mas...</a></span>
+                </div>
+              </div>
+              
+          </div><!--termina row para cuadro gris-->
+              <div class="cajagris">
+                <h2>Agenda</h2>
+              </div>
+              <div class="row"><!--empieza agenda-->
+                <div class="col-md-12">
+                  <div class="media">
+                    <div class=" pull-left ">
+                      <h3 class="media-object enero text-center">23 Enero</h3>
+                    </div>
+                  <div class="media-body">
+                      <h3 class="media-heading">Lorem ipsum dolor sit amet</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="media">
+                    <div class=" pull-left ">
+                      <h3 class="media-object enero text-center">23 Enero</h3>
+                    </div>
+                  <div class="media-body">
+                      <h3 class="media-heading">Lorem ipsum dolor sit amet</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="media">
+                    <div class=" pull-left ">
+                      <h3 class="media-object enero text-center">23 Enero</h3>
+                    </div>
+                  <div class="media-body">
+                      <h3 class="media-heading">Lorem ipsum dolor sit amet</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="media">
+                    <div class=" pull-left ">
+                      <h3 class="media-object enero text-center">23 Enero</h3>
+                    </div>
+                  <div class="media-body">
+                      <h3 class="media-heading">Lorem ipsum dolor sit amet</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                  </div>
+                  </div>
+                </div>
+              </div><!--ultimo row de agenda-->
+              <div class="row">
+                <div class="col-md-12">
+                  <h2>Más informacion</h2>
+                  <a href="#">Localidades</a>
+                  <h3>Lorem ipsum dolor sit amet</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                  <a href="#">Hospimedia</a>
+                  <h3>Lorem ipsum dolor sit amet</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+              </div>
+        </div><!--termina col para segunda columna-->
+      <div class="col-md-4"><!--col para tercer columna de 4-->
+        <aside>
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Mas Informacion</h2>
+              <ul>
+                <li><span class="glyphicon glyphicon-bookmark"><a href="#">Finanzas y fiscalizacion</a></span></li>
+                <li><span class="glyphicon glyphicon-bookmark"><a href="#">Inversion y euipos.</a></span></li>
+                <li><span class="glyphicon glyphicon-bookmark"><a href="#">Medio ambiente</a></span></li>
+                <li><span class="glyphicon glyphicon-bookmark"><a href="#">Habitat / Urbanismo</a></span></li>
+                <li><span class="glyphicon glyphicon-bookmark"><a href="#">Sanidad</a></span></li>
+                <li><span class="glyphicon glyphicon-bookmark"><a href="#">Social /servicios</a></span></li>
+                <li><span class="glyphicon glyphicon-bookmark"><a href="#">transporte</a></span></li>
+              </ul>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12">
+              <p>Magazine</p>
+              <p><strong>ECODEFI</strong></p>
+              <h4>Enuete</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+              <h4>Preguntas</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p>Magazine</p>
+              <p><strong>ACCIONES COMUNES</strong></p>
+              <h4>Enuete</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+              <h4>Preguntas</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p><strong>Nueva generacion de la internet</strong></p>
+            </div>
+          </div>
+        </aside>
+      </div><!--termina col para tercer columna de 4-->
+    </div><!--termina row general para las 3 columnas-->
+  </section>
+  <footer class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <p>Rubros</p>
+          <ul>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Actualidades</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">En directo</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Reporte financiero</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Nuestra oferta</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">De nosotros a ustedes</a></span></li>
+          </ul>
+      </div>
+      <div class="col-md-2">
+        <p>Expertise</p>
+          <ul>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Finanzas y fiscalizacion</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Investigacion y euipos.</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Medio ambiente</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Habitat / Urbanismo</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Sanidad</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Social /servicios</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">transporte</a></span></li>
+          </ul>
+      </div>
+      <div class="col-md-2">
+        <p>Suscripcion</p>
+          <ul>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Todo el flujo</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Flujo RSS para expertos</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Noticias</a></span></li>
+          </ul>
+      </div>
+      <div class="col-md-2">
+        <p>Nosotros</p>
+          <ul>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">¿quienes somos?</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Plan de sitio</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Informacion legal</a></span></li>
+          </ul>
+      </div>
+      <div class="col-md-3">
+        <p>Contacto</p>
+          <ul>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Contactanos</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">FAQ</a></span></li>
+            <li><span class="glyphicon glyphicon-bookmark"><a href="#">Haga sus preguntas</a></span></li>
+          </ul>
+      </div>
+    </div>
+  </footer>
+    <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

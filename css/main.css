@@ -1,0 +1,40 @@
+/* Inserta tu código aqui */
+.noticia{/*mover menu noticias*/
+	margin-top: 15%;
+}
+h2{/*cajas grises con texto blanco*/
+	font-size: 200%;
+	color: white;
+}
+.cajagris{/*cajas grises*/
+	background-color: silver;
+	width: 70%;
+}
+h3{
+	font-size: 150%;
+}
+.cajitanegra{/*aja de webzone*/
+	background-color: black;
+	color: white;
+	margin-top: 5%;
+}
+a{
+	color: black;
+}
+ul li{
+	list-style: none;
+	color: black;
+}
+
+.gris{
+
+}
+.enero{
+	background-color: silver;
+	padding: 13%;
+}
+@media screen and (max-width: 600px) {
+form{
+	display: none !important;/*desaparece el aside a modo
+	responsive*/
+}
